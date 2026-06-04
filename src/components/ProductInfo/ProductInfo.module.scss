@@ -1,0 +1,79 @@
+.container {
+  padding: 20px;
+}
+
+.brand {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.priceSection {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.salePrice {
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.colors,
+.sizes {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.colorBtn,
+.sizeBtn {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.active {
+  border: 2px solid black;
+}
+
+.soldOut {
+  background: #eee;
+  cursor: not-allowed;
+}
+
+.cartBtn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 16px;
+}
+
+.cartBtn:disabled {
+  background: gray;
+}
+
+.delivery {
+  margin-top: 15px;
+  color: green;
+}
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+}

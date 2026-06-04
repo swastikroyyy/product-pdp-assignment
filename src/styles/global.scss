@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+button {
+  cursor: pointer;
+}
+
+.productLayout {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+}
+
+.productLayout > div:first-child {
+  flex: 0 0 55%;
+}
+
+.productLayout > div:last-child {
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  .productLayout {
+    flex-direction: column;
+  }
+}

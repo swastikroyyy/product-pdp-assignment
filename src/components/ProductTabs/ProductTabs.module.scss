@@ -1,0 +1,40 @@
+.container {
+  margin-top: 50px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  
+}
+
+.active {
+  background: black;
+  color: white;
+}
+
+.content {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 767px) {
+  .tabs {
+    flex-direction: column;
+  }
+}
